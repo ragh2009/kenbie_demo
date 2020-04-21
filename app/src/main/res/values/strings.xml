@@ -1,0 +1,408 @@
+<resources>
+    <string name="app_name">Kenbie</string>
+    <string name="temperature">%1$f °C / %2$f °F</string>
+    <string name="network_fail">Network failed. Please try again.</string>
+    <string name="fail_message">Something wrong. Please try later!</string>
+    <string name="retry_title">Retry</string>
+    <string name="std_title">Calculate 5 days deviation</string>
+
+    <!-- twitter keys -->
+    <string name="twitter_consumer_key" translatable="false">7Pnd1lKNqfOte9XdHoQSBUYip</string>
+    <string name="twitter_consumer_secret" translatable="false">Kf6wlWEsCelKav4XyCBXZNseae9V09OF6WoHJDwERJvl9EFtab</string>
+
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">7Pnd1lKNqfOte9XdHoQSBUYip</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">Kf6wlWEsCelKav4XyCBXZNseae9V09OF6WoHJDwERJvl9EFtab</string>
+    <!-- FB -->
+    <!-- FB Login <string name="facebook_app_id">1519330688142163</string>
+        <string name="fb_login_protocol_scheme">fb1519330688142163</string>
+    -->
+    <string name="facebook_app_id">1475037125888564</string>
+    <string name="fb_login_protocol_scheme">fb1475037125888564</string>
+    <string name="channel_name">Kenbie</string>
+    <string name="channel_description">Kenbie Notifications Channels</string>
+    <string name="default_notification_channel_id">Kenbie_Channel</string>
+
+    <string name="select_picture">Select Picture</string>
+    <string name="upload_image_title">Upload Image</string>
+    <string name="select_photo_title">Select your photo here</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="asteriskred"><font color='#b8312f'>*</font></string>
+
+    <!-- Used stings -->
+    <string name="step_1">1/3</string>
+    <string name="step_2">2/3</string>
+    <string name="step_3">3/3</string>
+
+    <string name="login_title">Log In</string>
+    <string name="login_title_">LOG IN</string>
+    <string name="sign_up_title">Sign Up</string>
+    <string name="sign_up_title_">SIGN UP</string>
+    <string name="login_email_title">Log in with Email</string>
+    <string name="login_fb_title">Log in with Facebook</string>
+    <string name="login_goo_title">Log in with Google</string>
+    <string name="login_twitter_title">Log in with Twitter</string>
+    <string name="welcome_title">Welcome to Kenbie</string>
+    <string name="discover_title">Discover</string>
+    <string name="create_account_title">Create Account</string>
+    <string name="more_options_title">More Options</string>
+    <string name="login_msg_title">Kenbie is trusted community marketplace for people to list, discover and book models around the world.</string>
+    <string name="terms_title"><u>Terms of Service</u></string>
+    <string name="s_end">&amp;</string>
+    <string name="privacy_title"><u>Privacy Policy</u></string>
+
+    <string name="home_title">Home</string>
+    <string name="chat_title">Chat</string>
+    <string name="search_title">Search</string>
+    <string name="casting_title">Casting</string>
+    <string name="extra_title">Extra</string>
+    <string name="submit_title_">Submit</string>
+    <string name="next_title">Next</string>
+    <string name="social_u_title">Enter Social User Name</string>
+    <string name="sort_title_">SORT</string>
+    <string name="link_title_">LINK</string>
+    <string name="url_title_">URL</string>
+    <string name="unlink_title_">UNLINK</string>
+    <string name="refine_title_">REFINE</string>
+    <string name="view_models_title">View All Models ></string>
+    <string name="online_title">Online \u2022</string>
+    <string name="offline_title">Offline \u2022</string>
+    <string name="likes_title">LIKES</string>
+    <string name="fav_title">FAVORITE</string>
+    <string name="Share_title">SHARE</string>
+    <string name="edit_title">Edit</string>
+    <string name="et_prof_title">EDIT PROFILE</string>
+    <string name="chat_now_title">CHAT NOW</string>
+    <string name="name_title">Name</string>
+    <string name="type_title">Type</string>
+    <string name="loc_title">Location</string>
+    <string name="search_title_">SEARCH</string>
+    <string name="loc_title_">LOCATION</string>
+    <string name="guys_title">Guys</string>
+    <string name="girls_title">Girls</string>
+    <string name="both_title">Both</string>
+    <string name="new_face_title">New Face</string>
+    <string name="prof_title">Professional</string>
+    <string name="casting_area_title">CASTING \nFEATURE</string>
+    <string name="casting_info2_title">DIRECT CONTACT WITH THE MODELS!</string>
+    <string name="casting_info4_title">USE THE CASTING FEATURES TO YOUR ADVANTAGE</string>
+    <string name="casting_info5_title">Are you looking for a newcomer or a professional model? For female or male, blond or brunette, big or small, thick or thin models? If you have the exact model for your next shoot in mind, just create a casting, share your ideas with the world of Kenbie, lean back, and let the perfect cast approach you. Thanks to our casting features you can:</string>
+    <string name="casting_info6_title">Thanks to our casting features you can:</string>
+
+    <string name="mem_area_title">BECOME A\n<u>MEMBER NOW</u></string>
+    <string name="mem_info3_title">Be seen by agents, photographers, and models. Newcomer models waiting to be discovered and professional photographers who have already gained experience in this business can network with agents and photographers, participate in castings, land international modeling jobs, and much more.</string>
+    <string name="mem_info4_title">PREMIUM</string>
+    <string name="mem_info5_title">Increase Your possibilities</string>
+    <string name="mem_info6_title">Based on annual billing</string>
+    <string name="mem_info7_title">Do you want international agencies, photographers and models find out about you? Become a premium member at Kenbie!</string>
+
+    <string name="cel_area_title">CELEBRITY\n<u>AREA</u></string>
+    <string name="cel_info2_title">ATTRACT MORE ATTENTION WITH YOUR PROFILE RIGHT AWAY</string>
+    <string name="cel_info3_title">Be seen by agents, photographers, and models. In the celeb area, you can attract more attention.</string>
+    <string name="cel_info4_title">ATTRACT MORE ATTENTION NOW!</string>
+    <string name="cel_info5_title">Thanks to this feature in the CELEB area. As such, you’ll attract more attention and become a celebrity at Kenbie.</string>
+    <string name="how_title">How?</string>
+    <string name="cele_how1_title">Be listed at the way top as a celeb at Kenbie.</string>
+    <string name="cele_how2_title">Attract the attention of the agents, photographers </string>
+    <string name="cel_title">Celebrity</string>
+    <string name="buy_now_title_">BUY NOW</string>
+    <string name="pay_now_title">Pay Now</string>
+    <string name="pay_now_title_">PAY NOW</string>
+    <string name="cele_info_agree_title">I agree to pay 4.99</string>
+    <string name="cele_privacy_title">I have read the</string>
+    <string name="cele_terms_title">for online purchase and I agree with them.</string>
+    <string name="category_title">Category</string>
+    <string name="all_cat_title">All categories</string>
+    <string name="discipline_title">Discipline</string>
+    <string name="all_discipline_title">All disciplines</string>
+    <string name="height_title">Height</string>
+    <string name="weight_title">Weight</string>
+    <string name="sel_weight_title">Select weight</string>
+    <string name="bust_title">Bust</string>
+    <string name="select_bust_title">Select bust</string>
+    <string name="waist_title">Waist</string>
+    <string name="select_waist_title">Select waist</string>
+    <string name="hips_title">Hips</string>
+    <string name="select_hips_title">Select hips</string>
+    <string name="dress_title">Dress</string>
+    <string name="select_dress_title">Select dress</string>
+    <string name="eye_colour_title">Eye Colour</string>
+    <string name="sel_eye_colour_title">Select eye colour</string>
+    <string name="hair_colour_title">Hair Colour</string>
+    <string name="sel_hair_colour_title">Select hair colour</string>
+    <string name="ethnicity_title">Ethnicity</string>
+    <string name="sel_ethnicity_title">Select ethnicity</string>
+    <string name="lang_title">Languages</string>
+    <string name="select_lang_title">Select language</string>
+    <string name="advance_search_title">Advance Search</string>
+    <string name="t_agree_title">I agree with the </string>
+    <string name="terms1_title">Terms and Conditions. </string>
+    <string name="terms1_title_">Terms &amp; Conditions</string>
+    <string name="p_agree_title">Privacy Policy </string>
+    <string name="age_title_">AGE</string>
+    <string name="age_title">Age</string>
+    <string name="apply_title">APPLY</string>
+    <string name="to_title">to</string>
+    <string name="time_title">Time</string>
+    <string name="start_date_title">Start Date</string>
+    <string name="closing_date_title">Closing Date</string>
+    <string name="fees_title">Fees</string>
+    <string name="who_title">Who I am</string>
+    <string name="email_address_title">Email Address</string>
+    <string name="email_address_title_">EMAIL ADDRESS</string>
+    <string name="company_title_">COMPANY NAME</string>
+    <string name="hint_company_title_">Enter your company name</string>
+    <string name="enter_email_title">Enter your email id</string>
+    <string name="enter_old_password_title">Enter old password</string>
+    <string name="enter_new_password_title">Enter new password</string>
+    <string name="confirm_password_title">Confirm password</string>
+    <string name="enter_password_title">Enter your password</string>
+    <string name="full_name_title">FULL NAME</string>
+    <string name="password_title">PASSWORD</string>
+    <string name="birth_title_">BIRTH DATE</string>
+    <string name="birth_title">Birth Date</string>
+    <string name="location_title_">LOCATION</string>
+    <string name="gender_title">Gender</string>
+    <string name="gender_title_">GENDER</string>
+    <string name="within_title">Within</string>
+    <string name="company_title">Company</string>
+    <string name="mob_title">Mobile Number</string>
+    <string name="country_title">Country</string>
+    <string name="city_title">City</string>
+    <string name="address_title">Address</string>
+    <string name="street_title">Street</string>
+    <string name="postal_code_title">Postal Code</string>
+    <string name="agency_title">Are You From Agency</string>
+    <string name="cancel_title">Cancel</string>
+    <string name="cancel_title_">CANCEL</string>
+    <string name="add_photo_title">Add Photos</string>
+    <string name="g_share_title">Share Photo</string>
+    <string name="g_delete_title">Delete Photo</string>
+    <string name="g_make_avatar_title">Make it Avatar</string>
+    <string name="day_title">Day</string>
+    <string name="week_title">Week</string>
+    <string name="month_title">Month</string>
+    <string name="view_profile_title">View Your Profile</string>
+    <string name="view_profile_stats_title">View Your Stats</string>
+    <string name="profile_visitor_title">Profile Visitor</string>
+    <string name="notification_title">Notifications</string>
+    <string name="comments_title">Comments</string>
+    <string name="profile_views_title">Profile Views</string>
+    <string name="profile_comp_title">Your Profile Completeness</string>
+    <string name="profile_section_title">Profile Section</string>
+    <string name="profile_section_complete_action">Please complete this click here</string>
+    <string name="photo_upload_title">Photo Upload</string>
+    <string name="photo_upload_action">Please upload now click here</string>
+    <string name="privacy_section_title">Privacy Section</string>
+    <string name="privacy_section_action">Please complete this click here</string>
+    <string name="send_title">Send</string>
+    <string name="send_msg_title_">SEND MESSAGE</string>
+    <string name="type_msg_title">Type a message</string>
+    <string name="pwd_hint_title">********</string>
+    <string name="sel_lang_title">Selected Language</string>
+    <string name="sel_your_lang_title">Selected Your language</string>
+    <string name="mem_title">Membership</string>
+    <string name="mem_renew_title">Would you like to stop your auto renew subscription?</string>
+    <string name="stop_title">Stop</string>
+    <string name="stop_title_">STOP</string>
+    <string name="get_mem_title_">Get Membership</string>
+    <string name="get_mem_sub_title">More attention straight away</string>
+    <string name="get_mem_msg">Unlock all things and make it easy for Models, Agency, Photographers to find you!</string>
+    <string name="hide_account_title">Hide Account</string>
+    <string name="t_title">Title</string>
+    <string name="t_filter_by">Filter By</string>
+    <string name="t_reset_all_">RESET ALL</string>
+    <string name="model_title">Models</string>
+    <string name="model_title_">MODELS</string>
+    <string name="agencies_title">Agencies</string>
+    <string name="photographers_title">Photographers</string>
+    <string name="add_casting_title">ADD CASTING</string>
+    <string name="casting_dates_title">Casting Dates</string>
+    <string name="view_model_title">View Interested Models</string>
+    <string name="applied_casting_title">APPLIED CASTING</string>
+    <string name="applied_title">Applied</string>
+    <string name="add_new_casting_title">Casting</string>
+    <string name="pg_title">PHOTOGRAPHER NEARBY</string>
+    <string name="around_casting_title">CASTING AROUND THE WORLD</string>
+    <string name="data_not_found_title">Data is not found.</string>
+    <string name="req_title">Requirements</string>
+    <string name="hint_casting_title">Enter your casting title heading</string>
+    <string name="hint_casting_description">Write description..</string>
+    <string name="c_direct_title">Direct contact with the models!</string>
+    <string name="c_info_msg">Be seen by models, photographers and agency in your area, when you get featured.</string>
+    <string name="great_ways_msg">GREAT WAYS TO USE CASTING FEATURES</string>
+    <string name="s_name_title">Search by name</string>
+    <string name="s_location_title">Enter Location</string>
+    <string name="enter_link_title_">ENTER LINK</string>
+    <string name="no_18">18</string>
+    <string name="no_30">30</string>
+    <string name="male_title">Male</string>
+    <string name="female_title">Female</string>
+    <string name="celeb_title_">CELEB</string>
+    <string name="report_title">Report Abuse</string>
+    <string name="privacy_view_title">Who can view my profile</string>
+    <string name="p_no_one_title">No One</string>
+    <string name="p_only_member_title">Only Member</string>
+    <string name="p_all_see_title">All See</string>
+    <string name="save_title">SAVE</string>
+    <string name="okay_title">Okay</string>
+    <string name="no_data_title">No data found!</string>
+    <string name="end_data_title">You\'ve reached the end of the list</string>
+    <string name="report_abuse_reason_title">Reason</string>
+    <string name="report_abuse_reason_hint">Select reason</string>
+    <string name="report_abuse_comments">Comments</string>
+    <string name="report_abuse_comments_hint">Write comments...</string>
+
+    <string name="email_val">"^[\\w-_\\.+]*[\\w-_\\.]\\@([\\w]+\\.)+[\\w]+[\\w]$"</string>
+
+    <string name="about_me_title">About Me</string>
+
+    <string name="prompt_email">Email</string>
+
+    <string name="title_forget">Forget Password?</string>
+
+    <string name="prompt_password">Password (optional)</string>
+
+    <!-- -->
+    <!-- Strings related to login -->
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."
+    </string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_message_conv">MessageConvActivity</string>
+
+    <string name="todo">TODO</string>
+    <string-array name="language_array">
+        <item>English</item>
+        <item>German</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="type_array">
+        <item>All</item>
+        <item>Model</item>
+        <item>Agency</item>
+        <item>Photographer</item>
+    </string-array>
+    <string-array name="type_1_array">
+        <item>Model</item>
+        <item>Agency</item>
+        <item>Photographer</item>
+    </string-array>
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="title_activity_kenbie_more_options">KenbieMoreOptionsActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+</resources>

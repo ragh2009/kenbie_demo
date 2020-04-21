@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffffff</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#ff000000</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="bg_btn_red_color">#b8312f</color>
+    <color name="gray">#808080</color>
+    <color name="gray_light">#7F7F7F</color>
+    <color name="dark_gray">#404040</color>
+    <color name="red_text_color">#b8312f</color>
+    <color name="blue_fb_color">#3A579B</color>
+    <color name="red_g_color">#b8312f</color>
+    <color name="transparent">#00000000</color>
+    <color name="twitter_color">#50ABF1</color>
+    <color name="nav_bg_color">#272727</color>
+    <color name="green_color">#00FF00</color>
+    <color name="app_bg_color">#eeeeee</color>
+    <color name="c_b3b3b3">#b3b3b3</color>
+    <color name="c_cccccc">#cccccc</color>
+    <color name="c_FFDFE0">#ffdfdf</color>
+    <color name="c_F2F2F2">#F2F2F2</color>
+    <color name="c_70CD7C">#70CD7C</color>
+    <color name="c_FF6161">#FF6161</color>
+    <color name="divider_color">#eeeeee</color>
+    <color name="stat_bg">#F7F7F7</color>
+    <color name="c_94F6E9">#94F6E9</color>
+    <color name="c_FDC726">#FDC726</color>
+    <color name="c_32CE7A">#32CE7A</color>
+    <color name="c_F23F3B">#F23F3B</color>
+
+</resources>

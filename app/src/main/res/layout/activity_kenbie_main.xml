@@ -1,0 +1,63 @@
+<!-- A DrawerLayout is intended to be used as the top-level content view using match_parent for both width and height to consume the full space available. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.kenbie.KenbieActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <include layout="@layout/top_header_bar" />
+
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:id="@+id/guest_bottom_options"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/size_15"
+            android:paddingTop="@dimen/size_5"
+            android:paddingRight="@dimen/size_15"
+            android:paddingBottom="@dimen/size_5"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/btn_login"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/size_8"
+                android:layout_weight="1"
+                android:background="@drawable/btn_red_bg_style"
+                android:gravity="center"
+                android:padding="@dimen/size_8"
+                android:text="@string/login_title_"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_15" />
+
+            <TextView
+                android:id="@+id/btn_signup"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/size_8"
+                android:layout_weight="1"
+                android:background="@drawable/btn_red_bg_style"
+                android:gravity="center"
+                android:padding="@dimen/size_8"
+                android:text="@string/sign_up_title_"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_15" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

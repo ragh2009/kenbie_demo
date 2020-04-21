@@ -1,0 +1,72 @@
+{
+  "project_info": {
+    "project_number": "510221218616",
+    "firebase_url": "https://kenbie-a6493.firebaseio.com",
+    "project_id": "kenbie-a6493",
+    "storage_bucket": "kenbie-a6493.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510221218616:android:36ea80a22159db8a",
+        "android_client_info": {
+          "package_name": "com.kenbie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510221218616-sald9rpmbau3gmhfebpd7an6drmql4pi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kenbie",
+            "certificate_hash": "7b8103877853a4c890c528eae3e99f5e8fa111e4"
+          }
+        },
+        {
+          "client_id": "510221218616-09hkcdp9uqma3b5t1urrha5nsea3t0nt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kenbie",
+            "certificate_hash": "8c6356a04a33a4858880a22aa6630f1ac246410d"
+          }
+        },
+        {
+          "client_id": "510221218616-rqkdc31dsce6lfa4hbhs74fl3qrmfmag.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kenbie",
+            "certificate_hash": "47dd4a6febf652253393c7322fafa962c14f9446"
+          }
+        },
+        {
+          "client_id": "510221218616-dqvgd9f2di4ojp18fsecjk83an47jleq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaL7h6n_6ZMQN0oK_umnmpUvwSUku1JzI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "510221218616-gpno5u8rase7ci3vj4iork6k17dkh8tl.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "510221218616-249soou28asannbehsp0ico0itu4gkvk.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.kenbie.Kenbie",
+                "app_store_id": "1366834211"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

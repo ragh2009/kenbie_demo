@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/layout_rounded_corner"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/size_15"
+        android:paddingLeft="@dimen/size_10"
+        android:paddingRight="@dimen/size_10"
+        android:text="@string/upload_image_title"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_16" />
+
+    <TextView
+        android:id="@+id/txtTitle2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/size_15"
+        android:paddingLeft="@dimen/size_10"
+        android:paddingRight="@dimen/size_10"
+        android:text="@string/select_photo_title"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_12" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:layout_marginTop="@dimen/size_5"
+        android:layout_marginBottom="@dimen/size_5"
+        android:background="@color/divider_color" />
+
+    <TextView
+        android:id="@+id/txtCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/size_10"
+        android:text="@string/camera"
+        android:textColor="@color/twitter_color"
+        android:textSize="@dimen/text_size_14" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/divider_height"
+        android:layout_marginTop="@dimen/size_5"
+        android:layout_marginBottom="@dimen/size_5"
+        android:background="@color/divider_color" />
+
+    <TextView
+        android:id="@+id/txtGallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="@dimen/size_10"
+        android:text="@string/gallery"
+        android:textColor="@color/twitter_color"
+        android:textSize="@dimen/text_size_14" />
+
+</LinearLayout>

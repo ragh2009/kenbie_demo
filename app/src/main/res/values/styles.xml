@@ -1,0 +1,238 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:dialogTheme">@style/AppDialogTheme</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@color/white</item>
+        <!--<item name="android:windowBackground">@color/white</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:fitsSystemWindows">true</item>-->
+        <!-- Apply default style for alert dialogs -->
+        <item name="android:alertDialogTheme">@style/AppAlertTheme</item>
+        <item name="android:colorEdgeEffect" tools:targetApi="lollipop">@color/red_text_color</item>
+        <!--        <item name="android:spinnerStyle">@style/spinner_style</item>-->
+        <!--
+                <item name="android:overlapAnchor" tools:targetApi="lollipop">false</item>
+        -->
+        <!--  <item name="seekBarStyle">@style/MySeekBar</item>-->
+    </style>
+
+    <style name="ToolBarAppTheme" parent="Theme.MaterialComponents.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:dialogTheme">@style/AppDialogTheme</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <!-- Apply default style for alert dialogs -->
+        <item name="android:alertDialogTheme">@style/AppAlertTheme</item>
+        <item name="android:colorEdgeEffect" tools:targetApi="lollipop">@color/red_text_color</item>
+
+        <!--        <item name="android:spinnerStyle">@style/spinner_style</item>-->
+
+        <!--  <item name="seekBarStyle">@style/MySeekBar</item>-->
+    </style>
+
+    <style name="spinner_style">
+        <item name="android:paddingLeft">0dp</item>
+        <!--
+                <item name="android:dropDownWidth">533dp</item>
+                <item name="android:dropDownHeight">250dp</item>
+        -->
+        <item name="android:showDividers">none</item>
+        <item name="android:dividerHeight">0dp</item>
+        <item name="android:popupBackground">@color/white</item>
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
+        <item name="android:dropDownSelector">@android:color/white</item>
+        <item name="android:overlapAnchor" tools:targetApi="lollipop">true</item>
+        <item name="android:windowActionBarOverlay">@android:color/white</item>
+    </style>
+
+    <style name="MyAlertDialogStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">@color/red_text_color</item>
+        <item name="spinnerStyle">?android:attr/progressBarStyleSmall</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTitleStyle">@null</item>
+        <item name="android:windowNoTitle">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <!--   <style name="MySeekBar" parent="Widget.AppCompat.SeekBar">
+        <item name="android:progressBackgroundTint" tools:targetApi="lollipop">@color/c_cccccc
+        </item>
+        <item name="android:progressTint" tools:targetApi="lollipop">@color/red_text_color</item>
+        <item name="android:colorControlActivated" tools:targetApi="lollipop">
+            @color/red_text_color
+        </item>
+        <item name="android:minHeight">@dimen/progress_height</item>
+        <item name="android:maxHeight">@dimen/progress_height</item>
+    </style>-->
+
+    <style name="AppThemeMessage" parent="Theme.MaterialComponents.Bridge">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:dialogTheme">@style/AppDialogTheme</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <!-- Apply default style for alert dialogs -->
+        <item name="android:alertDialogTheme">@style/AppAlertTheme</item>
+        <item name="android:colorEdgeEffect" tools:targetApi="lollipop">@color/red_text_color</item>
+        <!--        <item name="android:spinnerStyle">@style/spinner_style</item>-->
+        <!--
+                <item name="android:overlapAnchor" tools:targetApi="lollipop">false</item>
+        -->
+        <!--  <item name="seekBarStyle">@style/MySeekBar</item>-->
+    </style>
+
+    <style name="MyDatePickerSpinnerStyle" parent="@android:style/Widget.Material.DatePicker" tools:targetApi="lollipop">
+        <item name="android:datePickerMode">spinner</item>
+        <item name="android:calendarViewShown">false</item>
+        <item name="colorControlNormal">@color/red_text_color</item>
+    </style>
+
+    <style name="MySeekBar" parent="Widget.AppCompat.SeekBar">
+        <item name="android:progressBackgroundTint" tools:targetApi="lollipop">#f4511e</item>
+        <item name="android:progressTint" tools:targetApi="lollipop">#388e3c</item>
+        <item name="android:colorControlActivated" tools:targetApi="lollipop">#c51162</item>
+        <item name="android:minHeight">8dip</item>
+        <item name="android:maxHeight">20dip</item>
+        <item name="android:paddingTop">@dimen/size_3</item>
+        <item name="android:paddingBottom">@dimen/size_3</item>
+    </style>
+
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light">
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="datepicker" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorPrimary">@color/red_text_color</item>
+        <item name="colorPrimaryDark">@color/red_text_color</item>
+        <item name="colorAccent">@color/red_text_color</item>
+    </style>
+
+    <style name="MyCustomTabText" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">@dimen/text_size_14</item>
+    </style>
+
+    <style name="SwitchCompatTheme">
+        <item name="colorControlActivated">@color/red_text_color</item>
+        <item name="colorSwitchThumbNormal">@color/gray_light</item>
+        <item name="thumbTint">@color/switch_color</item>
+        <item name="trackTint">@color/switch_color</item>
+    </style>
+
+    <style name="SwitchCompatStyle">
+        <item name="thumbTint">@color/switch_color</item>
+        <item name="trackTint">@color/switch_color</item>
+    </style>
+
+    <style name="MyRadioButton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="android:button">@drawable/btn_radio_holo_light</item>
+    </style>
+
+    <!-- Define your custom dialog theme here extending from base -->
+    <style name="AppDialogTheme" parent="Theme.MaterialComponents.Light.Dialog">
+        <!-- Define color properties as desired -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:textColorHighlight">@color/gray</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/gray</item>
+        <!-- Define window properties as desired -->
+        <item name="android:windowNoTitle">false</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+    <!-- Define your custom alert theme here extending from base -->
+    <style name="AppAlertTheme" parent="Theme.MaterialComponents.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorControlNormal">@color/gray</item>
+        <item name="android:textColorHighlight">@color/gray</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="SpinnerBackgroundCustom" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <!-- Used for the buttons -->
+        <item name="colorAccent">@color/white</item>
+        <!-- Used for the title and text -->
+        <item name="android:textColorPrimary">@color/black</item>
+        <!-- Used for the background -->
+        <item name="android:popupBackground">@color/white</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:dropDownSelector">@color/white</item>
+        <item name="android:popupElevation" tools:targetApi="lollipop">@dimen/size_2</item>
+
+    </style>
+
+
+    <style name="ProgressBarStyle" parent="@android:style/Widget.ProgressBar.Horizontal">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">10dip</item>
+        <item name="android:max">100</item>
+        <item name="android:progressDrawable">@drawable/progress_bar</item>
+    </style>
+
+    <style name="CircularProgress" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/red_text_color</item>
+    </style>
+
+    <style name="MyProgressBar" parent="@style/Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressBackgroundTint" tools:targetApi="lollipop">@color/c_b3b3b3
+        </item>
+        <item name="android:progressTint" tools:targetApi="lollipop">@color/red_text_color</item>
+        <item name="android:minWidth">200dp</item>
+    </style>
+
+    <style name="TextLabel" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:editTextColor">@color/black</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHighlight">@color/gray_light</item>
+        <item name="android:textColorHint">@color/gray_light</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+        <item name="colorControlNormal">@color/colorAccent</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+        <item name="android:textCursorDrawable">@drawable/color_cursor</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+</resources>

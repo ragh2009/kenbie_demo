@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/size_15"
+    android:paddingTop="@dimen/size_40"
+    android:paddingRight="@dimen/size_15"
+    android:paddingBottom="@dimen/size_40"
+    tools:context="com.kenbie.LoginOptionsActivity">
+
+    <TextView
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="@string/login_title"
+        android:textColor="@color/bg_btn_red_color"
+        android:textSize="@dimen/text_size_16" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_kenbie_logo" />
+
+    <TextView
+        android:id="@+id/title_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_40"
+        android:layout_marginBottom="@dimen/size_40"
+        android:text="@string/welcome_title"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_18" />
+
+    <TextView
+        android:id="@+id/btn_discover"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_10"
+        android:layout_marginBottom="@dimen/size_10"
+        android:background="@drawable/btn_red_bg_style"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/size_10"
+        android:text="@string/discover_title"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_16" />
+
+    <TextView
+        android:id="@+id/btn_create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_bg_with_black_outer_5dp"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/size_10"
+        android:text="@string/create_account_title"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_16" />
+
+    <TextView
+        android:id="@+id/btn_more_options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_40"
+        android:layout_marginBottom="@dimen/size_40"
+        android:text="@string/more_options_title"
+        android:textColor="@color/bg_btn_red_color"
+        android:textSize="@dimen/text_size_16" />
+
+    <TextView
+        android:id="@+id/title_l_msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/size_6"
+        android:layout_marginBottom="@dimen/size_6"
+        android:text="@string/login_msg_title"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size_14" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/size_15"
+        android:paddingBottom="@dimen/size_15">
+
+        <TextView
+            android:id="@+id/btn_terms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/size_5"
+            android:paddingBottom="@dimen/size_5"
+            android:text="@string/terms_title"
+            android:textColor="@color/red_text_color"
+            android:textSize="@dimen/text_size_16" />
+
+        <TextView
+            android:id="@+id/title_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size_10"
+            android:layout_marginRight="@dimen/size_10"
+            android:text="@string/s_end"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_16" />
+
+        <TextView
+            android:id="@+id/btn_privacy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/size_5"
+            android:paddingBottom="@dimen/size_5"
+            android:text="@string/privacy_title"
+            android:textColor="@color/red_text_color"
+            android:textSize="@dimen/text_size_16" />
+    </LinearLayout>
+</LinearLayout>
